@@ -23,7 +23,7 @@ module.exports = class StorageLayer {
 
     // new
     get PRIMARY_KEY() {
-        return this.#storageConfig.primary_Key;
+        return this.#storageConfig.primary_key;
     }
 
     get RESOURCE() {
