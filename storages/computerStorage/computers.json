@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Small Brainx",
+        "price": null,
+        "type": "laptop",
+        "firstname": "Matti",
+        "lastname": "River",
+        "department": "ict",
+        "salary": 4002
+    },
+    {
+        "id": 2,
+        "name": "Big Brainx",
+        "price": 300000,
+        "type": "super computer"
+    },
+    {
+        "id": 3,
+        "name": "middle Brainilein",
+        "price": 300000,
+        "type": "super computer"
+    }
+]

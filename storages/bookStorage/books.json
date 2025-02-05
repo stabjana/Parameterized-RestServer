@@ -1,0 +1,21 @@
+[
+    {
+        "bookId": 1,
+        "title": "The Great Gatsby",
+        "author": {
+            "firstname": "Fritz Scott",
+            "lastname": "Fitzgerald"
+        },
+        "price": 10,
+        "id": 1
+    },
+    {
+        "bookId": 2,
+        "title": "The Catcher in the Rye",
+        "author": {
+            "firstname": "J.D.",
+            "lastname": "Salinger"
+        },
+        "price": 15
+    }
+]

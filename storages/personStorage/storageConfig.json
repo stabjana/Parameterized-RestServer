@@ -1,0 +1,6 @@
+{
+    "storageFile":"employees.json", 
+    "adapterFile":"personAdapter.js",
+    "primary_Key":"id",
+    "resource":"employees"
+}
