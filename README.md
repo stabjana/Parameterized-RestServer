@@ -193,4 +193,12 @@ put the testServer.js code to the restServer.js
 Not functioning:
 get keys
 computers keys : empty array
+
 # Parameterized-RestServer
+
+start each with:
+node restServer configComputers.json
+or
+node restServer configBook
+or
+node restServer configPerson

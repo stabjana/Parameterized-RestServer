@@ -26,12 +26,5 @@
         "lastname": "River",
         "department": "ict",
         "salary": 4000
-    },
-    {
-        "id": 234,
-        "firstname": "Mary",
-        "lastname": "Jones",
-        "department": "admin",
-        "salary": 7000
     }
 ]
