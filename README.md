@@ -1,3 +1,49 @@
+# Parameterized-RestServer
+
+## how to use it
+
+1. clone the repo
+2. run the installation of node modules in your console
+   it should install the dependencies in your root folder
+
+```shell
+npm i
+```
+
+3. starting the servers
+
+```shell
+node restServer configComputers.json
+
+node restServer configBook
+
+node restServer configPerson
+```
+
+you can run all 3 servers simultanuously
+
+4. open the restTester.html in your browser
+
+Then you have the option to check the route when you select "get" and press submit, you can see which server runs on the address localhost:xxxx/api/
+
+when you write it to the route, and hit get again, it will show you all data of that route
+
+computers runs on port:4000  
+persons runs on port:4001  
+books runs on port:4002
+
+5. now you can test several methods for each server
+
+hit get and copy one object to the JSON body field and try it with submit
+
+put will update an object
+post will post a new object
+delete will delete an object
+
+---
+
+# Study notes:
+
 # Parameterized version of the server
 
 ## Rest Server:
@@ -193,12 +239,3 @@ put the testServer.js code to the restServer.js
 Not functioning:
 get keys
 computers keys : empty array
-
-# Parameterized-RestServer
-
-start each with:
-node restServer configComputers.json
-or
-node restServer configBook
-or
-node restServer configPerson
